@@ -94,7 +94,7 @@ class CfgMagazines {
 		descriptionshort = "Caliber: 5.45x39mm Ball<br/>Rounds: 30 <br/>Used in: AK-74M and AKS-74M";
 		initspeed = 900;
 		displayname = "30Rnd. 5.45x39mm";
-		picture = "\tb_arifle_ak\data\ui\m_ak74_ca"
+		picture = "\tb_arifle_ak\data\ui\m_ak74_ca";
 		tracersevery = 0;
 		lastroundstracer = 4;
 	};
@@ -104,7 +104,7 @@ class CfgMagazines {
 		displayname = "30Rnd. 5.45x39mm Tracer";
 		tracersevery = 2;
 		lastroundstracer = 4;
-		picture = "\tb_arifle_ak\data\ui\m_ak74_ca"		
+		picture = "\tb_arifle_ak\data\ui\m_ak74_ca";		
 	};
 };
 
