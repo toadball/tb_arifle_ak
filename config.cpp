@@ -40,10 +40,10 @@ class CfgWeapons {
 		class GP25: EGLM {
 			displayname = "GP25";
 			displaynameshort = "GP25";
-			cameradir = "OP_look";
+			cameradir = "op_look";
 			discretedistance[] = {100, 200, 300, 400};
-			discretedistancecamerapoint[] = {"OP_eye_1", "OP_eye_2", "OP_eye_3", "OP_eye_4"};
-			discretedistanceinitindex = 1;
+			discretedistancecamerapoint[] = {"op_eye","op_eye2","op_eye3","op_eye4"};
+			discretedistanceinitindex = 0;
 			useexternaloptic = 0;
 			usemodeloptics = 0;
 		};
@@ -83,17 +83,18 @@ class CfgWeapons {
 		model = "tb_arifle_ak\aks74m_gl";	
 		picture = "\tb_arifle_ak\data\ui\w_aks74mgl";
 	};	
-	
-	
-	};
+
+};
 
 class CfgMagazines {
 	class 30Rnd_556x45_Stanag;
 	class tb_30rnd_545x39 : 30Rnd_556x45_Stanag {
+	
 		ammo = "tb_545x39_ball";
 		descriptionshort = "Caliber: 5.45x39mm Ball<br/>Rounds: 30 <br/>Used in: AK-74M and AKS-74M";
 		initspeed = 900;
 		displayname = "30Rnd. 5.45x39mm";
+		displaynameshort = "5.45x39mm";
 		picture = "\tb_arifle_ak\data\ui\m_ak74_ca";
 		tracersevery = 0;
 		lastroundstracer = 4;
@@ -102,6 +103,7 @@ class CfgMagazines {
 		ammo = "tb_545x39_tracer";
 		descriptionshort = "Caliber: 5.45x39mm Tracer<br/>Rounds: 30<br/>Used in: AK-74M and AKS-74M";
 		displayname = "30Rnd. 5.45x39mm Tracer";
+		displaynameshort = "Tracer";
 		tracersevery = 2;
 		lastroundstracer = 4;
 		picture = "\tb_arifle_ak\data\ui\m_ak74_ca";		
